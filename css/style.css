@@ -43,9 +43,15 @@ html,body{
   border: #106B34
 }
 
+.the-img {
+  position: relative;
+}
+
 .oun_img {
   width: 100%;
-  height: 70vh;
+  height: 523px;
+  background-size: cover;
+  background-repeat: no-repeat;
   position: relative;
 }
 
@@ -53,8 +59,8 @@ html,body{
   color: white;
   font-family: 'Raleway';
   position: absolute;
-  top: 62rem;
-  left: 6rem;
+  top: 50px;
+  left: 60px;
   background-color: #050405;
   padding: 40px;
   width: 45%;
@@ -286,8 +292,16 @@ html,body{
  .Things {
   background-color: white;
   height: 100%;
-  padding: 120px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
 } 
+
+.svg{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .in{
   display: flex;
@@ -298,12 +312,14 @@ html,body{
   line-height: 56px;
 }
 
+.lns {
+  color: #106B34;
+}
 
 .list {
-  justify-content: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 10px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-evenly
 }
 
 .gallery-1 {
@@ -441,12 +457,14 @@ text-align: left;
   background-color: #F9F9F9;
   height: 100%;
   padding: 30px;
+  display: flex;
+  flex-direction: column;
 } 
 
 .updates {
-  justify-content: space-around;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;  
+  flex-direction: row;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .updates p {
@@ -626,8 +644,7 @@ input[type=checkbox]
 .cel {
   display: flex;
   flex-direction: row;
-  margin-left: 122px;
-  margin-bottom: 30px;
+  margin-bottom: 8px;
 }
 
 .cel h1{
@@ -641,13 +658,16 @@ input[type=checkbox]
   }
 
 .board {
-  height: 91px;
   filter: grayscale(100%);
+  width: 15%;
+  margin-left: 197px;
+  margin-bottom: 8px;
 }
 
 .link {
   display: flex;
   justify-content: space-around;
+  padding-bottom: 50px;
 }
 
 hr{
@@ -850,6 +870,15 @@ align-items: center;
 }
 
 .oun_img {
+  width: 100%;
+  height: 70vh;
+  position: relative;
+  object-fit: cover;
+  /* width: 50px; */
+  /* height: 100px; */
+}
+
+.oun_img {
   height: 72vh;
   width: 100%;
   position: relative;
@@ -859,7 +888,6 @@ align-items: center;
   color: white;
   font-family: 'Raleway';
   position: absolute;
-  top: 112%;
   left: 1rem;
   background-color: #050405;
   padding: 28px;
@@ -1013,15 +1041,26 @@ align-items: center;
   padding: 0px;
 }
 
+.svg{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+
 .in{
   display: flex;
   font-family: 'Raleway';
-  font-size: 38px;
+  font-size: 28px;
   font-style: normal;
   font-weight: 700;
   line-height: 56px;
   margin-top: 34px;
   margin-bottom: 10px;
+}
+
+.lns {
+  color: #106B34;
 }
 
 
@@ -1252,7 +1291,8 @@ br{
 }
 
 .board {
-  width: 44%;
+  margin-left: 0px;
+  width: 50%;
   height: 70px;
   filter: grayscale(100%);
 }

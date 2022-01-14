@@ -39,7 +39,7 @@ html,body{
 }
 
 
-/* #sig-log{
+#sig-log{
   padding: 5px;
   margin-right: 10px;
   width: 130px;
@@ -54,8 +54,11 @@ html,body{
   margin-right: 90px;
   background-color: #106B34;
   border: #106B34
-} */
+}
 
+.mar {
+  display: flex;
+} 
 
 .compressor{
   display: flex;
@@ -124,9 +127,11 @@ padding: 180px 120px 120px 120px;
   margin-left: -30px;
 }
 
-.signing h1{
-  color: #106B34;
-  font-weight: 700;
+.signing h1 {
+  color: black;
+  font-weight: 500;
+  font-size: 34px;
+  margin-bottom: 52px;
 }
 
 .signing input{
@@ -137,24 +142,40 @@ padding: 180px 120px 120px 120px;
   width: 95%;
 }
 
-
-.div.success input {
-  border-color: #2ecc71;
+.le {
+  margin-top: 27px;
 }
 
-.div.error input {
-  border-color: #e74c3c;
+.esc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 471px;
+  margin-top: 21px;
 }
 
+#scales {
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #106B34;
+  border-radius: 4px;
+  width: 95%;
+}
 
-.form-control.error small {
-  visibility: visible;
+input[type=checkbox] {
+  -ms-transform: scale(2);
+  -moz-transform: scale(2);
+  -webkit-transform: scale(2);
+  -o-transform: scale(2);
+  transform: scale(1.5);
+  padding: 30px;
+  margin-left: 5px;
 }
 
 .form button {
   cursor: pointer;
   background-color: #106B34;
-  margin-top: 50px;
+  margin-top: 20px;
   border-radius: 4px;
   width: 230px;
   padding: 8px;
@@ -250,6 +271,7 @@ h2:before {
   justify-content: center;
   align-items: center;
 }
+
 
 .fa-google:before {
   content: "\f1a0";
@@ -432,7 +454,6 @@ font-weight: 300;
 }
 
 
-
 .faf .fab {
   color: white;
   font-weight: 400;
@@ -509,8 +530,7 @@ font-weight: 300;
 .navbar-light .navbar-nav .nav-link {
   font-family: 'Raleway';
   color: #106B34;
-  }
-  
+}
 
 
 .item {
@@ -601,12 +621,13 @@ flex-direction: column;
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-left: 14px;
+  margin-left: 0px;
+  margin-bottom: 15px;
 }
 
 .board {
   margin-top: 16px;
-  margin-left: 0px;
+  margin-left: 14px;
   width: 50%;
   height: 70px;
   filter: grayscale(100%);

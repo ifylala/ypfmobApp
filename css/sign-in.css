@@ -12,7 +12,6 @@ html,body{
 }
 
 .navbar-light .navbar-nav .nav-link {
-  /* color: rgba(0, 0, 0, 0.55); */
   color: black;
 }
 
@@ -66,13 +65,6 @@ html,body{
   flex-direction: row;
 }
 
-
-
-/* .ted {
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-justify-content: space-around;
-} */
 
 .ted{
  background-image:
@@ -189,16 +181,6 @@ input[type=checkbox]{
 }
 
 
-/* .cal {
-  background-color: #106B34;
-  margin-top: 50px;
-  border-radius: 4px;
-  width: 230px;
-  padding: 8px;
-  border: none;
-  color: white;
-} */
-
 .in {
   width: 100%; 
   text-align: center; 
@@ -206,16 +188,6 @@ input[type=checkbox]{
   line-height: 0.1em;
   margin: 10px 0 20px; 
 } 
-
-/* .in span { 
-   background:#fff; 
-   padding:0 10px; 
-}
-
-h1 {
-  overflow: hidden;
-  text-align: center;
-} */
 
 .ort {
   display: flex;
@@ -615,7 +587,6 @@ input[type=checkbox]{
   font-size: 15px;
   display: flex;
   margin: 0px;
-  /* justify-content: center; */
   align-items: center;
   width: 100%;
 }

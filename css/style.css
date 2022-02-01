@@ -55,7 +55,6 @@ html,body{
   height: 523px;
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
 }
 
 .oun-text {
@@ -256,7 +255,6 @@ html,body{
 
 .mem i {
   color: #6CC03B;
-  /* width: 60px; */
 }
 
 .mem span {
@@ -372,6 +370,7 @@ html,body{
   color: white;
   background-color: black;
 }
+
 .gallery-4 img {
   width: 100%;
   height: auto;
@@ -549,6 +548,14 @@ text-align: left;
   justify-content: space-around;
 }
 
+.letter {
+  margin-top: 50px;
+}
+
+.letter div {
+  width: 50px;
+}
+
 .letter h3 {
   color: #A8D125; 
   font-family: 'Raleway';
@@ -563,32 +570,48 @@ text-align: left;
   font-weight: 100;
 }
 
+.form {
+  width: 100%;
+}
+
+.eak {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+#username {
+  padding: 12px;
+  border: none;
+}
+
+#last {
+  padding: 12px;
+  border: none;
+}
+
+.eak input {
+  width: 100%;
+  min-height: 25px;
+  border: 0;
+  font-size: 1rem;
+  font-family: "Raleway";
+  margin-top: 5px;
+}
+
+.eak div{
+  width: 48%;
+}
+
 .break{
   display: flex;
   flex-direction: column;
 }
 
-.eak{
-  display: flex;
-}
-
-.break input {
-  margin: 0px 10px 13px 0px;
-}
-
-#username {
-  padding: 8px;
-  width: 260px;
-}
-
-#last {
-  padding: 8px;
-  width: 260px;
-}
-
 #mail {
-  padding: 8px;
-  width: 535px;
+  padding: 12px;
+  border: none;
+  margin-top: 8px;
+  font-family: 'Raleway';
 }
 
 .form h3 {
@@ -607,7 +630,7 @@ input[type=checkbox]
   -o-transform: scale(2); 
   transform: scale(1.5);
   padding: 30px;
-  margin-left: 20px;
+  margin-left: 0px;
 }
 
 #cales {
@@ -637,18 +660,16 @@ input[type=checkbox]
 }
 
 
-
-
 .sub_footer {
   background-color: #FAFAFC;
   padding: 112px 0px 0px 0px;
   display: flex;
-  flex-direction: column;
+  flex-direction: initial;
   justify-content: space-evenly;
 }
 .cel {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin-bottom: 8px;
 }
 
@@ -664,8 +685,7 @@ input[type=checkbox]
 
 .board {
   filter: grayscale(100%);
-  width: 15%;
-  margin-left: 197px;
+  width: 40%;
   margin-bottom: 8px;
 }
 
@@ -1216,6 +1236,8 @@ br{
   padding: 0px;
   color: white;
   font-family: 'Raleway';
+  display: flex;
+  flex-direction: column;
 }
 
 .division {
@@ -1225,22 +1247,14 @@ br{
 }
 
 .letter{
-    text-align: center;
-    margin-top: 35px;
+  text-align: center;
+  margin-top: 35px;
 }
 
-#username {
-  padding: 8px;
-  width: 170px;
-  margin-left: 5px;
-  margin-bottom: 0px;
+.letter div {
+  width: 50px;
 }
 
-#last {
-  padding: 8px;
-  width: 170px;
-  margin-bottom: 0px; 
-}
 
 .form h3 {
   font-weight: 500;
@@ -1249,26 +1263,28 @@ br{
   margin-top: 20px;
   margin-bottom: 10px;
   padding-right: 17px;
-  margin-left: 24px;
-}
-
-.break {
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
+  margin-left: 9px;
 }
 
 .eak {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  width: 100%;
+  padding: 9px;
 }
 
-#mail {
-  padding: 8px;
-  width: 90%;
-  margin-left: 15px;
-  margin-top: 13px;
-  margin-right: 12px;
+.break {
+  padding: 0px 9px;
+}
+
+input[type=checkbox] {
+  -ms-transform: scale(2);
+  -moz-transform: scale(2);
+  -webkit-transform: scale(2);
+  -o-transform: scale(2);
+  transform: scale(1.5);
+  padding: 30px;
+  margin-left: 9px;
 }
 
 .font {
@@ -1279,15 +1295,18 @@ br{
 }
 
 .sub_footer {
+  background-color: #FAFAFC;
   padding-top: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .cel {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-left: 14px;
+  flex-direction: column;
   margin-bottom: 15px;
+  padding: 11px;
 }
 
 .link p {
@@ -1298,13 +1317,11 @@ br{
   font-weight: 400;
   line-height: 28px;
   letter-spacing: 0em;
-  padding: 12px;
 }
 
 .board {
   margin-left: 0px;
   width: 50%;
-  height: 70px;
   filter: grayscale(100%);
 }
 
@@ -1312,6 +1329,13 @@ br{
   display: flex;
   justify-content: space-around;
   flex-direction: column;
+  padding-bottom: 0px;
+}
+
+.ress {
+  display: flex;
+  flex-direction: column;
+  padding: 11px;
 }
 
 .ron {
@@ -1336,6 +1360,7 @@ hr {
   border: 1px solid black;
   width: 100%;
 }
+
 #cales {
   margin-left: 2px;
 }

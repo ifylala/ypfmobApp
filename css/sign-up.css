@@ -12,7 +12,6 @@ html,body{
 }
 
 .navbar-light .navbar-nav .nav-link {
-  /* color: rgba(0, 0, 0, 0.55); */
   color: black;
 }
 
@@ -38,37 +37,10 @@ html,body{
   justify-content: space-around;
 }
 
-
-/* #sig-log{
-  padding: 5px;
-  margin-right: 10px;
-  width: 130px;
-  color: #106B34;
-  border: 1px solid #106B34;
-  background-color: white;
-}
-
-#sig {
-  font-family: 'Raleway';
-  width: 130px;
-  margin-right: 90px;
-  background-color: #106B34;
-  border: #106B34
-} */
-
-
 .compressor{
   display: flex;
   flex-direction: row;
 }
-
-
-
-/* .ted {
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-justify-content: space-around;
-} */
 
 .ted{
  background-image:
@@ -110,17 +82,13 @@ padding: 180px 120px 120px 120px;
   margin-top: 180px;
   font-family: 'Raleway';
   margin-left: 70px;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center; */
+  width: 40%;
 }
 
 
 #eye {
   background: #fff;
   color: #333;
-  /* margin: 5.9px 0 0 0; */
   margin-left: -30px;
 }
 
@@ -162,17 +130,6 @@ padding: 180px 120px 120px 120px;
   color: white;
 }
 
-
-/* .cal {
-  background-color: #106B34;
-  margin-top: 50px;
-  border-radius: 4px;
-  width: 230px;
-  padding: 8px;
-  border: none;
-  color: white;
-} */
-
 .in {
   width: 100%; 
   text-align: center; 
@@ -180,16 +137,6 @@ padding: 180px 120px 120px 120px;
   line-height: 0.1em;
   margin: 10px 0 20px; 
 } 
-
-/* .in span { 
-   background:#fff; 
-   padding:0 10px; 
-}
-
-h1 {
-  overflow: hidden;
-  text-align: center;
-} */
 
 .ort {
   display: flex;
@@ -211,27 +158,7 @@ h3:before, h3:after{
 .ort:after {
   margin-left: 10px
 }
-/* 
-h2:before,
-h2:after {
-  background-color: #000;
-  content: "";
-  display: inline-block;
-  height: 1px;
-  position: relative;
-  vertical-align: middle;
-  width: 50%;
-}
 
-h2:before {
-  right: 0.5em;
-  margin-left: -50%;
-} */
-
-/* h1:after {
-  left: 0.5em;
-  margin-right: -50%;
-} */
 
 .ject {
   margin: 78px 0px 0px 0px;
@@ -269,7 +196,7 @@ h2:before {
   background-color: #FAFAFC;
   padding: 112px 0px 0px 0px;
   display: flex;
-  flex-direction: column;
+  flex-direction: initial;
   justify-content: space-evenly;
 }
 .cct{
@@ -294,8 +221,9 @@ h2:before {
 
 .cel {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin-bottom: 8px;
+  width: 38%;
 }
 
 .cel h1{
@@ -310,8 +238,7 @@ h2:before {
 
 .board {
   filter: grayscale(100%);
-  width: 15%;
-  margin-left: 197px;
+  width: 40%;
   margin-bottom: 8px;
 }
 
@@ -512,7 +439,6 @@ font-weight: 300;
   }
   
 
-
 .item {
   display: flex;
   width: 400px;
@@ -537,6 +463,7 @@ flex-direction: column;
 .signing {
   margin: 0px;
   font-family: 'Raleway';
+  width: initial;
 }
 
 .div{
@@ -550,6 +477,14 @@ flex-direction: column;
   font-weight: 700;
   text-align: center;
   margin-top: 30px;
+}
+
+.ort {
+  display: flex;
+  flex-direction: row;
+  margin-top: 103px;
+  padding: 8px;
+  font-size: 20px;
 }
 
 .ject {
@@ -579,32 +514,37 @@ flex-direction: column;
 
 .rma {
   margin-top: 5%;
-  font-size: 13px;
+  font-size: 17px;
   padding: 8px;
 }
 
 .rma span {
   color: #6CC03B;
   font-weight: 700;
-  font-size: 13px;
+  font-size: 17px;
 }
+
 
 .sub_footer {
   padding-top: 0px;
+  display: flex;
+  flex-direction: column;
 }
 
 .cel {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  margin-left: 14px;
+  margin-left: 0px;
+  margin-bottom: 15px;
+  width: initial;
 }
 
 .board {
   margin-top: 16px;
   margin-left: 0px;
+  padding-left: 11px;
   width: 50%;
-  height: 70px;
   filter: grayscale(100%);
 }
 
@@ -612,6 +552,18 @@ flex-direction: column;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
+  padding-bottom: 0px;
+}
+
+.link p {
+  font-family: 'Raleway';
+  color: black;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  padding: 11px;
 }
 
 .ron {
@@ -620,17 +572,11 @@ flex-direction: column;
   justify-content: space-around;
 }
 
-.link p{
-  font-family: 'Raleway';
-  color: black;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px;
-  letter-spacing: 0em;
-  padding: 14px;
-  }
-  
+.ress {
+  display: flex;
+  flex-direction: column;
+  padding: 11px;
+}
 
 .ress h1 {
   font-family: 'Raleway';
@@ -648,6 +594,7 @@ hr {
   border: 1px solid black;
   width: 100%;
 }
+
 #cales {
   margin-left: 2px;
 }

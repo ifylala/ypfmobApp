@@ -91,8 +91,6 @@ padding: 180px 120px 120px 120px;
   align-items: center;
 }
 
-
-
 .jpg{
   width: 100%;
   height: 100%;
@@ -106,6 +104,7 @@ padding: 180px 120px 120px 120px;
   margin-top: 180px;
   font-family: 'Raleway';
   margin-left: 70px;
+  width: 40%;
 }
 
 .signing h1 {
@@ -248,9 +247,10 @@ h3:before, h3:after{
   background-color: #FAFAFC;
   padding: 112px 0px 0px 0px;
   display: flex;
-  flex-direction: column;
+  flex-direction: initial;
   justify-content: space-evenly;
 }
+
 .cct{
   margin-top: 38px;
   font-size: 20px;
@@ -273,8 +273,9 @@ h3:before, h3:after{
 
 .cel {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin-bottom: 8px;
+  width: 38%;
 }
 
 .cel h1{
@@ -289,8 +290,7 @@ h3:before, h3:after{
 
 .board {
   filter: grayscale(100%);
-  width: 15%;
-  margin-left: 197px;
+  width: 40%;
   margin-bottom: 8px;
 }
 
@@ -515,6 +515,7 @@ flex-direction: column;
 .signing {
   margin: 0px;
   font-family: 'Raleway';
+  width: initial;
 }
 
 #Email-address {
@@ -572,6 +573,14 @@ input[type=checkbox]{
   margin-top: 30px;
 }
 
+.ort {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  font-size: 20px;
+  padding: 8px;
+}
+
 .ject {
  display: grid;
  grid-template-rows: repeat(2, 1fr);
@@ -599,33 +608,35 @@ input[type=checkbox]{
 
 .rma {
   margin-top: 5%;
-  font-size: 13px;
+  font-size: 17px;
   padding: 8px;
 }
 
 .rma span {
   color: #6CC03B;
   font-weight: 700;
-  font-size: 13px;
+  font-size: 17px;
 }
 
 .sub_footer {
   padding-top: 0px;
+  display: flex;
+  flex-direction: column;
 }
 
 .cel {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column;
   margin-left: 0px;
   margin-bottom: 15px;
+  width: initial;
 }
 
 .board {
   margin-top: 16px;
-  margin-left: 14px;
-  width: 50%;
-  height: 70px;
+  margin-left: 0px;
+  padding-left: 11px;
+  width: 40%;
   filter: grayscale(100%);
 }
 
@@ -633,7 +644,20 @@ input[type=checkbox]{
   display: flex;
   justify-content: space-around;
   flex-direction: column;
+  padding-bottom: 0px;
 }
+
+.link p {
+  font-family: 'Raleway';
+  color: black;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  padding: 11px;
+}
+
 
 .ron {
   display: flex;
@@ -641,17 +665,13 @@ input[type=checkbox]{
   justify-content: space-around;
 }
 
-.link p{
-  font-family: 'Raleway';
-  color: black;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 28px;
-  letter-spacing: 0em;
-  padding: 14px;
-  }
-  
+
+.ress {
+  display: flex;
+  flex-direction: column;
+  padding: 11px;
+}
+
 
 .ress h1 {
   font-family: 'Raleway';
